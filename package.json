@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tako",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ibm-watson": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
